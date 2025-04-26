@@ -42,7 +42,7 @@ export default (config, { strapi }: { strapi: Core.Strapi }) => {
   // Add your own logic here.
 
   return async (ctx, next) => {
-    console.log(ctx.query);
+    // console.log(ctx.query);
 
     ctx.query.populate = populate;
     strapi.log.info("In page-layout-populate middleware.");
