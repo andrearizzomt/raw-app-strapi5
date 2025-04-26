@@ -11,12 +11,12 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "Header": {
+    "header": {
       "type": "component",
       "repeatable": false,
       "component": "layout.header"
     },
-    "Footer": {
+    "footer": {
       "type": "component",
       "repeatable": false,
       "component": "layout.footer"

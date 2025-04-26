@@ -1,11 +1,12 @@
 {
   "collectionName": "components_layout_headers",
   "info": {
-    "displayName": "Header"
+    "displayName": "header",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Logo": {
+    "logo": {
       "type": "component",
       "repeatable": false,
       "component": "shared.logo-link"

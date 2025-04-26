@@ -1,11 +1,12 @@
 {
   "collectionName": "components_shared_links",
   "info": {
-    "displayName": "Link"
+    "displayName": "Link",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Label": {
+    "label": {
       "type": "string"
     },
     "href": {
@@ -19,7 +20,7 @@
       "type": "boolean",
       "default": false
     },
-    "Type": {
+    "type": {
       "type": "enumeration",
       "enum": [
         "PRIMARY",

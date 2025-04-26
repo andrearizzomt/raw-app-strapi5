@@ -1,11 +1,12 @@
 {
   "collectionName": "components_layout_footers",
   "info": {
-    "displayName": "Footer"
+    "displayName": "footer",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Logo": {
+    "logo": {
       "type": "component",
       "repeatable": false,
       "component": "shared.logo-link"
@@ -20,7 +21,7 @@
       "repeatable": true,
       "component": "shared.logo-link"
     },
-    "TermsAndConditions": {
+    "termsAndConditions": {
       "type": "text"
     }
   }

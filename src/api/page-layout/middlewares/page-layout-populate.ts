@@ -5,11 +5,11 @@
 import type { Core } from "@strapi/strapi";
 
 const populate = {
-  Header: {
+  header: {
     populate: {
-      Logo: {
+      logo: {
         populate: {
-          Image: {
+          image: {
             fields: ["alternativeText", "url"],
           },
         },
@@ -17,11 +17,11 @@ const populate = {
       navigationItems: true,
     },
   },
-  Footer: {
+  footer: {
     populate: {
-      Logo: {
+      logo: {
         populate: {
-          Image: {
+          image: {
             fields: ["alternativeText", "url"],
           },
         },
@@ -29,7 +29,7 @@ const populate = {
       navigationItems: true,
       socialLinks: {
         populate: {
-          Image: {
+          image: {
             fields: ["alternativeText", "url"],
           },
         },

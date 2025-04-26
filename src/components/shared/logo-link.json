@@ -1,11 +1,12 @@
 {
   "collectionName": "components_shared_logo_links",
   "info": {
-    "displayName": "Logo Link"
+    "displayName": "Logo Link",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Label": {
+    "label": {
       "type": "string"
     },
     "href": {
@@ -15,12 +16,13 @@
       "type": "boolean",
       "default": false
     },
-    "Image": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
